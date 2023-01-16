@@ -6,8 +6,6 @@ The hass_dl_tracker packages allows to easily upload your deeplearning metrics t
 ## Installation
 
 ```
-
-python3 -m pip install --index-url https://github.com/LeanderHeuvel/HomeAsssistant-DeepLearning-Tracker --no-deps deeplearningtracker_leandervandenheuvel
 pip install git+https://github.com/LeanderHeuvel/HomeAsssistant-DeepLearning-Tracker.git#egg=deeplearningtracker_leandervandenheuvel
 ```
 
