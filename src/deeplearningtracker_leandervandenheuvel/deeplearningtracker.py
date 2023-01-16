@@ -2,8 +2,6 @@ from requests import post
 import json
 
 
-__version__ = 'beta'
-
 '''
 A Deep Learning Tracker for Home Assistant
 Author: Leander van den Heuvel
