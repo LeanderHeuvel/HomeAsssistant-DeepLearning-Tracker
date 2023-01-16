@@ -1,5 +1,5 @@
 from config import API_KEY, HASS_URL, WEBHOOK_ID
-from src.deeplearningtracker_leandervandenheuvel.deeplearningtracker import DeepLearningTracker
+from deeplearningtracker_leandervandenheuvel import DeepLearningTracker
 import time
 
 model_name = "DeepLearningTest"
