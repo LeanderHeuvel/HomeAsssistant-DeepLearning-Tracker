@@ -9,6 +9,12 @@ The hass_dl_tracker packages allows to easily upload your deeplearning metrics t
 pip install git+https://github.com/LeanderHeuvel/HomeAsssistant-DeepLearning-Tracker.git#egg=deeplearningtracker_leandervandenheuvel
 ```
 
+## Home Assistant Requirements
+
+1. Obtain a long [lived access token](https://community.home-assistant.io/t/how-to-get-long-lived-access-token/162159)
+2. Obtain webhook ID: create an automation, in trigger use 'webhook', an webhook_id will appear.
+3. install the package
+
 ## Usage
 
 ```
