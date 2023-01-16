@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from my_pip_package import __version__
+from deeplearningtracker import __version__
 
 setup(
     name='hass_dl_tracker',
