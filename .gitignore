@@ -5,5 +5,3 @@ __pycache__
 *.py[cod]
 *$py.class
 *.egg-info
-
-hass_dl_tracker.egg-info/*
