@@ -31,6 +31,7 @@ class DeepLearningTracker():
         post(url, headers = headers, data=payload)
 
     def update_state(self, **kwargs):
+    
         payload = {}
         attributes = {}
         for key, value in kwargs.items():
