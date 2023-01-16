@@ -12,6 +12,6 @@ setup(
 
     py_modules=['hass_dl_tracker'],
     install_requires=[
-        'returns-decorator',
+        'requests',
     ],
 )
