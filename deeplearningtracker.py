@@ -5,9 +5,10 @@ import json
 __version__ = 'beta'
 
 class DataUploader():
-    def __init__(self, model_name, hass_url) -> None:
-        self.api_key = API_KEY
-        self.hass_url = HASS_URL+"/api/states/"
+    def __init__(self, model_name, hass_url, api_key, webhook_id) -> None:
+        self.api_key = api_key
+        self.webhook_id = webhook_id
+        self.hass_url = hass_url+"/api/states/"
         self.sensor_name = "sensor."+model_name
         self.model_name = model_name
         self.make_announcement()
@@ -15,7 +16,7 @@ class DataUploader():
     def make_announcement(self):
         headers = {'content-type': 'application/json'}
         payload = json.dumps({"type": "data","data": {"model_name": str(self.model_name)}})
-        url = HASS_URL + "/api/webhook/" + WEBHOOK_ID
+        url = HASS_URL + "/api/webhook/" + self.webhook_id
         post(url, headers = headers, data=payload)
 
     def update_state(self, **kwargs):
