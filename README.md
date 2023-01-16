@@ -13,7 +13,8 @@ pip install git+https://github.com/LeanderHeuvel/HomeAsssistant-DeepLearning-Tra
 
 1. Obtain a long [lived access token](https://community.home-assistant.io/t/how-to-get-long-lived-access-token/162159)
 2. Obtain webhook ID: create an automation, in trigger use 'webhook', an webhook_id will appear.
-3. install the package
+3. Get your home assistant instance url, e.g. http://homeassistant.local:8123
+4. install the package, see usage
 
 ## Usage
 
