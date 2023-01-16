@@ -1,10 +1,12 @@
 from requests import post
-from config import API_KEY, HASS_URL, WEBHOOK_ID
+
 import json
-import time
+
+
+__version__ = 'beta'
 
 class DataUploader():
-    def __init__(self, model_name) -> None:
+    def __init__(self, model_name, hass_url) -> None:
         self.api_key = API_KEY
         self.hass_url = HASS_URL+"/api/states/"
         self.sensor_name = "sensor."+model_name
