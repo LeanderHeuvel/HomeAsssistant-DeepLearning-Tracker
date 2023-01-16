@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/deeplearningtracker_leandervandenheuvel/__init__.py
+src/deeplearningtracker_leandervandenheuvel/deeplearningtracker.py
+src/deeplearningtracker_leandervandenheuvel.egg-info/PKG-INFO
+src/deeplearningtracker_leandervandenheuvel.egg-info/SOURCES.txt
+src/deeplearningtracker_leandervandenheuvel.egg-info/dependency_links.txt
+src/deeplearningtracker_leandervandenheuvel.egg-info/top_level.txt
