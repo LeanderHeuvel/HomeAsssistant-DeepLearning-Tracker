@@ -1,6 +1,0 @@
-README.md
-setup.py
-hass_dl_tracker.egg-info/PKG-INFO
-hass_dl_tracker.egg-info/SOURCES.txt
-hass_dl_tracker.egg-info/dependency_links.txt
-hass_dl_tracker.egg-info/top_level.txt
