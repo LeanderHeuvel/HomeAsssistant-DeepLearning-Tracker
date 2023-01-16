@@ -11,4 +11,7 @@ setup(
     author_email='leander.vandenheuvel@gmail.com',
 
     py_modules=['hass_dl_tracker'],
+    install_requires=[
+        'returns-decorator',
+    ],
 )

@@ -5,7 +5,7 @@ import json
 __version__ = 'beta'
 
 class DataUploader():
-    def __init__(self, model_name, hass_url, api_key, webhook_id) -> None:
+    def __init__(self, model_name, hass_url, api_key, webhook_id):
         self.api_key = api_key
         self.webhook_id = webhook_id
         self.hass_url = hass_url+"/api/states/"
