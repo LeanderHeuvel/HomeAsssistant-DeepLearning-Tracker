@@ -4,5 +4,3 @@ __pycache__
 
 *.py[cod]
 *$py.class
-*.cpython-310.pyc
-__pycache__/deeplearningtracker.cpython-310.pyc
