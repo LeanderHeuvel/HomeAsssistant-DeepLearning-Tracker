@@ -16,7 +16,7 @@ class DataUploader():
     def make_announcement(self):
         headers = {'content-type': 'application/json'}
         payload = json.dumps({"type": "data","data": {"model_name": str(self.model_name)}})
-        url = HASS_URL + "/api/webhook/" + self.webhook_id
+        url = self.hass_url + "/api/webhook/" + self.webhook_id
         post(url, headers = headers, data=payload)
 
     def update_state(self, **kwargs):
