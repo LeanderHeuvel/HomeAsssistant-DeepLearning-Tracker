@@ -31,6 +31,6 @@ model_name = "DeepLearningTest"
 upload = DeepLearningTracker(model_name,HASS_URL, API_KEY,WEBHOOK_ID)
 
 ##upload any metrics by adding them to the constructer of update_state(). By default the loss will be used to update the 'state' attribute of the entity.
-upload.update_state(loss = i*0.45, epoch = i, accuracy_val = 74)
+upload.update_state(loss = 0.45, epoch = 0, accuracy_val = 0.74)
 
 ```
