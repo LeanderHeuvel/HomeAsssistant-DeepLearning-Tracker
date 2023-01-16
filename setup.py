@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from deeplearningtracker import __version__
+from src.deeplearningtracker_leandervandenheuvel.deeplearningtracker import __version__
 
 setup(
     name='hass_dl_tracker',
