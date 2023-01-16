@@ -4,7 +4,18 @@ import json
 
 __version__ = 'beta'
 
-class DataUploader():
+'''
+A Deep Learning Tracker for Home Assistant
+Author: Leander van den Heuvel
+
+Deep Learning Tracker provides an easy way to keep track of your deep learning metrics while training via Home Assistant
+When the model starts training, an announcement is made via a webhook. 
+
+Metrics are updated via the Home Assistant REST API.
+
+'''
+
+class DeepLearningTracker():
     def __init__(self, model_name, hass_url, api_key, webhook_id):
         self.api_key = api_key
         self.webhook_id = webhook_id
